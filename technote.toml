@@ -1,0 +1,23 @@
+[technote]
+id = "SOTN-010"
+series_id = "SOTN"
+canonical_url = "https://sotn-010.lsst.io"
+github_url = "https://github.com/lsst-so/sotn-010"
+github_default_branch = "main"
+date_created = 2026-09-08T18:27:18Z
+organization.name = "NSF-DOE Vera C. Rubin Observatory"
+organization.ror = "https://ror.org/048g3cy84"
+license.id = "CC-BY-4.0"
+
+[technote.status]
+state = "draft"
+
+[[technote.authors]]
+name.given = "Eric"
+name.family = "Coughlin"
+internal_id = "coughlinet"
+orcid = "https://orcid.org/0009-0007-4565-4082"
+[[technote.authors.affiliations]]
+name = "NSF-DOE Vera C. Rubin Observatory / NSF NOIRLab"
+internal_id = "RubinObs"
+address = "Tucson"
