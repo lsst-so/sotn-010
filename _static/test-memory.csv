@@ -1,0 +1,19 @@
+runner,python,sample,elapsed_seconds,max_rss_bytes,command
+conda-build (meta.yaml),3.13,1,434.016251,2754232320,conda-build conda --python 3.13 --croot /var/folders/r8/l4ywksy54_34b2p_xzqmcf8c0000gn/T/ts-cbp-memory-d6xtu8hn/conda-bld --no-anaconda-upload -c conda-forge -c lsstts
+conda-build (meta.yaml),3.13,2,434.741615,2464563200,conda-build conda --python 3.13 --croot /var/folders/r8/l4ywksy54_34b2p_xzqmcf8c0000gn/T/ts-cbp-memory-d6xtu8hn/conda-bld --no-anaconda-upload -c conda-forge -c lsstts
+conda-build (meta.yaml),3.13,3,426.552806,2468855808,conda-build conda --python 3.13 --croot /var/folders/r8/l4ywksy54_34b2p_xzqmcf8c0000gn/T/ts-cbp-memory-d6xtu8hn/conda-bld --no-anaconda-upload -c conda-forge -c lsstts
+rattler-build (recipe.yaml),3.13,1,114.598156,750206976,rattler-build build -r conda/recipe.yaml -c conda-forge -c lsstts --output-dir /var/folders/r8/l4ywksy54_34b2p_xzqmcf8c0000gn/T/ts-cbp-memory-d6xtu8hn/rattler-output
+rattler-build (recipe.yaml),3.13,2,98.838519,743161856,rattler-build build -r conda/recipe.yaml -c conda-forge -c lsstts --output-dir /var/folders/r8/l4ywksy54_34b2p_xzqmcf8c0000gn/T/ts-cbp-memory-d6xtu8hn/rattler-output
+rattler-build (recipe.yaml),3.13,3,98.983035,698253312,rattler-build build -r conda/recipe.yaml -c conda-forge -c lsstts --output-dir /var/folders/r8/l4ywksy54_34b2p_xzqmcf8c0000gn/T/ts-cbp-memory-d6xtu8hn/rattler-output
+pixi,3.13,1,44.596411,170311680,pixi run -e test-py313 test
+pixi,3.13,2,47.279475,176078848,pixi run -e test-py313 test
+pixi,3.13,3,42.962459,171622400,pixi run -e test-py313 test
+nox,3.13,1,155.189012,1891876864,nox -s tests-3.13
+nox,3.13,2,161.675670,1884045312,nox -s tests-3.13
+nox,3.13,3,150.389018,1721188352,nox -s tests-3.13
+pixi,3.14,1,45.126871,186728448,pixi run -e test-py314 test
+pixi,3.14,2,42.899027,187990016,pixi run -e test-py314 test
+pixi,3.14,3,44.548762,190513152,pixi run -e test-py314 test
+nox,3.14,1,143.028535,1034665984,nox -s tests-3.14
+nox,3.14,2,142.628003,948846592,nox -s tests-3.14
+nox,3.14,3,143.512175,946290688,nox -s tests-3.14
